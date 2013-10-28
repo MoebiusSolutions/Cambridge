@@ -6,9 +6,9 @@
     <artifactId>cambridge</artifactId>
     <packaging>pom</packaging>
     <name>Cambridge Template Engine</name>
-    <version>0.9-m1</version>
+    <version>0.9-m2</version>
     <properties>
-        <cambridgeVersion>0.9-SNAPSHOT</cambridgeVersion>
+        <cambridgeVersion>0.9-m2</cambridgeVersion>
         <github.global.server>github</github.global.server>
     </properties>
     <modules>

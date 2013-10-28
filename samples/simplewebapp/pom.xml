@@ -9,7 +9,7 @@
     <parent>
         <artifactId>cambridge</artifactId>
         <groupId>com.googlecode.cambridge</groupId>
-        <version>0.9-m1</version>
+        <version>0.9-m2</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
     <dependencies>
