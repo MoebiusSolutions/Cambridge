@@ -148,6 +148,9 @@ public class ClassPathTemplateLoader extends AbstractTemplateLoader {
     */
    public TemplateDocument parseTemplate(String templatePath, ExpressionLanguage expressionLanguage) throws TemplateLoadingException {
       InputStream in = classLoader.getResourceAsStream(templatePath);
+      if (in == null) {
+    	  throw new IllegalArgumentException("Not found: " + templatePath);
+      }
       return parseTemplate(in, expressionLanguage);
    }
 
